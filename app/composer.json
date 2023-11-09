@@ -1,0 +1,22 @@
+{
+    "name": "vyatkait/app",
+    "autoload": {
+        "files": [
+            "src/config.php",
+            "src/helper.php"
+        ],
+        "psr-4": {
+            "System\\": "src/System",
+            "Controller\\": "src/Controller",
+            "Core\\": "src/Core",
+            "Helper\\": "src/Helper"
+        }
+    },
+    "authors": [
+        {
+            "name": "VyatkaIt",
+            "email": "info@vyatka-it.ru"
+        }
+    ],
+    "require": {}
+}
